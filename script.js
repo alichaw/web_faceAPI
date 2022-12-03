@@ -12,7 +12,7 @@ var btn = document.getElementById("Btn");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-let imageEnd = document.getElementsByClassName("imgid");
+var imageEnd = document.getElementsByClassName("imgid")[0];
 // When the user clicks on the button, open the modal
 //btn.onclick = function() {
   
@@ -36,165 +36,165 @@ function startVideo() {
 var ans = 18;
 
 btn.onclick = function() {
-  imageEnd.src = "image\16.jpg"
+  imageEnd.src = "image/16.jpg"
   alert(0);
   var n1 = Math.round(Math.random()*1000000);
   if (emotion == "happy"){
-    imageEnd.src = "image\0.jpg"
+    imageEnd.src = "image/0.jpg"
     ans = 0;
     imageEnd.alt = ans;
   }else if (emotion == "angry"){
     ans = 16;
-    imageEnd.src = "image\16.jpg"
+    imageEnd.src = "image/16.jpg"
   }else if (emotion == "disgusted"){
     if (n1 < 220092){
-      imageEnd.src = "image\12.png"
+      imageEnd.src = "image/12.png"
       ans = 12;
     }else if (n1 < 420955){
       ans = 13;
-      imageEnd.src = "image\13.png"
+      imageEnd.src = "image/13.png"
     }else if (n1 < 615104){
       ans = 14;
-      imageEnd.src = "image\14.png"
+      imageEnd.src = "image/14.png"
     }else if (n1 < 807666){
       ans = 15;
-      imageEnd.src = "image\15.png"
+      imageEnd.src = "image/15.png"
     }else{
       ans = 16;
-      imageEnd.src = "image\16.jpg"
+      imageEnd.src = "image/16.jpg"
     }
   }else if (emotion == "sad") {
     if (n1 < 220092){
       ans = 4;
-      imageEnd.src = "image\4.png"
+      imageEnd.src = "image/4.png"
     }else if (n1 < 420955){
       ans = 3;
-      imageEnd.src = "image\3.png"
+      imageEnd.src = "image/3.png"
     }else if (n1 < 615104){
       ans = 2;
-      imageEnd.src = "image\2.png"
+      imageEnd.src = "image/2.png"
     }else if (n1 < 807666){
       ans = 1;
-      imageEnd.src = "image\1.png"
+      imageEnd.src = "image/1.png"
     }else{
       ans = 0;
-      imageEnd.src = "image\0.png"
+      imageEnd.src = "image/0.png"
     }
   }else if (emotion == "surprised") {
     if (n1 < 197293){
       ans = 7;
-      imageEnd.src = "image\7.png"
+      imageEnd.src = "image/7.png"
     }else if (n1 < 416398){
       ans = 8;
-      imageEnd.src = "image\8.png"
+      imageEnd.src = "image/8.png"
     }else if (n1 < 613683){
       ans = 9;
-      imageEnd.src = "image\9.png"
+      imageEnd.src = "image/9.png"
     }else if (n1 < 758599){
       ans = 10;
-      imageEnd.src = "image\10.png"
+      imageEnd.src = "image/10.png"
     }else if (n1 < 847973){
       ans = 11;
-      imageEnd.src = "image\11.png"
+      imageEnd.src = "image/11.png"
     }else if (n1 < 898468){
       ans = 12;
-      imageEnd.src = "image\12.png"
+      imageEnd.src = "image/12.png"
     }else if (n1 < 929737){
       ans = 13;
-      imageEnd.src = "image\13.png"
+      imageEnd.src = "image/13.png"
     }else if (n1 < 954292){
       ans = 14;
-      imageEnd.src = "image\14.png"
+      imageEnd.src = "image/14.png"
     }else if (n1 < 977260){
       ans = 15;
-      imageEnd.src = "image\15.png"
+      imageEnd.src = "image/15.png"
     }else{
       ans = 16;
-      imageEnd.src = "image\16.jpg"
+      imageEnd.src = "image/16.jpg"
     }
   }else if (emotion == "fearful") {
     if (n1 < 197293){
-      imageEnd.src = "image\9.png"
+      imageEnd.src = "image/9.png"
       ans = 9;
     }else if (n1 < 416398){
       ans = 8;
-      imageEnd.src = "image\8.png"
+      imageEnd.src = "image/8.png"
     }else if (n1 < 613683){
-      imageEnd.src = "image\7.png"
+      imageEnd.src = "image/7.png"
       ans = 7;
     }else if (n1 < 758599){
-      imageEnd.src = "image\6.png"
+      imageEnd.src = "image/6.png"
       ans = 6;
     }else if (n1 < 847973){
       ans = 5;
-      imageEnd.src = "image\5.png"
+      imageEnd.src = "image/5.png"
     }else if (n1 < 898468){
       ans = 4;
-      imageEnd.src = "image\4.png"
+      imageEnd.src = "image/4.png"
     }else if (n1 < 929737){
       ans = 3;
-      imageEnd.src = "image\3.png"
+      imageEnd.src = "image/3.png"
     }else if (n1 < 954292){
       ans = 2;
-      imageEnd.src = "image\2.png"
+      imageEnd.src = "image/2.png"
     }else if (n1 < 977260){
       ans = 1;
-      imageEnd.src = "image\1.jpg"
+      imageEnd.src = "image/1.jpg"
     }else{
       ans = 0;
-      imageEnd.src = "image\0.jpg"
+      imageEnd.src = "image/0.jpg"
     }
   }else if (emotion == "neutral"){
     if (n1 < 15){
       ans = 0;
-      imageEnd.src = "image\0.jpg"
+      imageEnd.src = "image/0.jpg"
     }else if (n1 < 259){
       ans = 1;
-      imageEnd.src = "image\1.jpg"
+      imageEnd.src = "image/1.jpg"
     }else if (n1 < 2090){
       ans = 2;
-      imageEnd.src = "image\2.png"
+      imageEnd.src = "image/2.png"
     }else if (n1 < 10635){
       ans = 3;
-      imageEnd.src = "image\3.png"
+      imageEnd.src = "image/3.png"
     }else if (n1 < 38406){
-      imageEnd.src = "image\4.png"
+      imageEnd.src = "image/4.png"
       ans = 4;
     }else if (n1 < 105056){
-      imageEnd.src = "image\5.png"
+      imageEnd.src = "image/5.png"
       ans = 5;
     }else if (n1 < 227248){
-      imageEnd.src = "image\6.png"
+      imageEnd.src = "image/6.png"
       ans = 6;
     }else if (n1 < 401809){
-      imageEnd.src = "image\7.png"
+      imageEnd.src = "image/7.png"
       ans = 7;
     }else if (n1 < 598190){
-      imageEnd.src = "image\8.png"
+      imageEnd.src = "image/8.png"
       ans = 8;
     }else if (n1 < 772751){
-      imageEnd.src = "image\9.png"
+      imageEnd.src = "image/9.png"
       ans = 9;
     }else if (n1 < 894943){
-      imageEnd.src = "image\10.png"
+      imageEnd.src = "image/10.png"
       ans = 10;
     }else if (n1 < 961593){
-      imageEnd.src = "image\11.png"
+      imageEnd.src = "image/11.png"
       ans = 11;
     }else if (n1 < 989364){
-      imageEnd.src = "image\12.png"
+      imageEnd.src = "image/12.png"
       ans = 12;
     }else if (n1 < 997909){
-      imageEnd.src = "image\13.png"
+      imageEnd.src = "image/13.png"
       ans = 13;
     }else if (n1 < 999740){
-      imageEnd.src = "image\14.png"
+      imageEnd.src = "image/14.png"
       ans = 14;
     }else if (n1 < 999984){
-      imageEnd.src = "image\15.png"
+      imageEnd.src = "image/15.png"
       ans = 15;
     }else{
-      imageEnd.src = "image\16.jpg"
+      imageEnd.src = "image/16.jpg"
       ans = 16;
     }
   }
